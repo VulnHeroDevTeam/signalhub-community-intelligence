@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SignalHub Community Evidence Example Schema (Proposed)",
+  "description": "Public illustrative interchange schema, not a SignalHub production API contract.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "cve_id",
+    "claim_type",
+    "claim",
+    "source",
+    "observed_at",
+    "review_status"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "cve_id": {
+      "type": "string",
+      "pattern": "^CVE-[0-9]{4}-[0-9]{4,}$"
+    },
+    "claim_type": {
+      "enum": [
+        "public_poc_reference",
+        "exploitation_report",
+        "affected_versions",
+        "remediation",
+        "other"
+      ]
+    },
+    "claim": {
+      "type": "string",
+      "minLength": 10
+    },
+    "product": {
+      "type": "string"
+    },
+    "affected_versions": {
+      "type": "string"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "url",
+        "published_at"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "published_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      }
+    },
+    "observed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "review_status": {
+      "enum": [
+        "pending",
+        "needs_changes",
+        "accepted",
+        "rejected",
+        "withdrawn"
+      ]
+    },
+    "evidence_dimensions": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "reported",
+          "source_checked",
+          "independently_corroborated",
+          "lab_validated",
+          "in_the_wild_claim"
+        ]
+      }
+    },
+    "contributor_handle": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}
