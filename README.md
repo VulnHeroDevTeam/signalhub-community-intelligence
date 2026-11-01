@@ -1,3 +1,5 @@
+![SignalHub community intelligence banner](assets/signalhub-community-banner.svg)
+
 # SignalHub — Community Vulnerability Intelligence
 
 **Open research collaboration. Traceable evidence. Better vulnerability decisions.**
@@ -32,6 +34,12 @@ Researchers can use the [SignalHub community platform](https://signalhub.vulnher
 Contributions are reviewed before they are treated as accepted community intelligence. Acceptance does not imply that exploitation has been independently reproduced.
 
 For contribution instructions, see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Researcher contribution & evidence verification
+
+![SignalHub researcher contribution and evidence verification workflow](assets/researcher-evidence-workflow.svg)
+
+*Illustrative workflow and development direction. Not all depicted checks are implemented or automated in the current platform.*
 
 ## How evidence is interpreted
 
