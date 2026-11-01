@@ -1,0 +1,19 @@
+{
+  "note": "SYNTHETIC EXAMPLE ONLY. CVE ID and evidence are fictitious; do not treat as live intelligence.",
+  "record_id": "example-001",
+  "cve_id": "CVE-2099-12345",
+  "claim_type": "public_poc_reference",
+  "claim": "A hypothetical public proof-of-concept reference was reported for a fictional product.",
+  "product": "ExampleCMS",
+  "affected_versions": "1.0.x (fictional)",
+  "source": {
+    "url": "https://example.org/fictional-advisory",
+    "published_at": "2026-01-15T12:00:00Z"
+  },
+  "observed_at": "2026-01-16T09:00:00Z",
+  "review_status": "pending",
+  "evidence_dimensions": [
+    "reported"
+  ],
+  "notes": "No real exploitation or vulnerability claim is made."
+}
