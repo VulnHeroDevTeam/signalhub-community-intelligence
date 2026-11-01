@@ -21,9 +21,9 @@
 <text x="100" y="295" font-size="40" font-weight="700" fill="#ecf5ff">Community-Driven Vulnerability Intelligence</text>
 <rect x="100" y="326" width="335" height="4" rx="2" fill="url(#cy)"/>
 <text x="100" y="398" font-size="29" fill="#c8dcf5">Verified Evidence <tspan fill="#12dfff"> • </tspan> Researcher Collaboration <tspan fill="#12dfff"> • </tspan> Actionable CVE Research</text>
-<g transform="translate(105,492)" stroke="#e2f2ff" stroke-width="3" fill="none"><circle cx="26" cy="25" r="24"/><path d="M15 -3V45M29 8V48M40 16V43"/></g>
-<text x="175" y="541" font-size="37" font-weight="700" fill="#f2f8ff">VulnHero</text><text x="402" y="541" font-size="27" fill="#a9c7e4">|</text>
-<text x="431" y="539" font-size="28" font-style="italic" fill="#c4d9ef">Powered by VulnHero's Vuln-Intel</text>
+<g transform="translate(100,485) scale(.78)"><path d="M444,44 438,50 435,56 435,68 440,77 451,83 465,83 475,78 481,68 481,56 479,51 472,44 465,41 451,41ZM454,52 462,52 467,58 466,68 459,73 454,72 449,67 449,57ZM403,41 403,83 417,83 417,60 422,54 430,53 430,41 422,42 417,46 416,41ZM358,45 354,49 350,59 350,65 354,75 358,79 367,83 382,83 389,80 392,77 385,70 379,73 371,73 364,67 366,65 395,65 395,57 390,47 379,41 366,41ZM364,56 367,52 375,50 379,52 382,57 365,58ZM235,42 235,83 249,83 249,60 250,57 256,52 262,53 266,60 266,83 279,83 279,52 274,44 268,41 257,41 250,45 248,44 248,41ZM156,42 156,66 158,75 162,80 168,83 180,83 186,79 187,83 200,83 200,41 186,41 186,66 180,72 176,72 171,68 170,41ZM290,29 290,82 305,83 306,61 326,61 327,83 341,83 342,29 327,29 326,50 306,50 305,29ZM94,29 116,82 131,83 154,29 140,29 125,63 121,58 110,30ZM211,26 211,83 224,83 225,26ZM34,2 33,87 23,77 18,62 20,49 30,33 23,39 18,48 16,56 17,69 22,80 33,90 42,94 59,94 73,87 80,79 85,67 85,53 80,41 72,33 72,36 78,42 82,50 82,70 78,78 69,87 68,58 59,53 59,90 56,92 55,32 47,27 47,91 44,92 42,90 42,6Z" fill="#ffffff" fill-rule="evenodd"/></g>
+<text x="525" y="546" font-size="27" fill="#a9c7e4">|</text>
+<text x="555" y="543" font-size="28" font-style="italic" fill="#c4d9ef">Powered by VulnHero's Vuln-Intel</text>
 <rect x="1155" y="105" width="295" height="210" rx="25" fill="#062848" stroke="#208eff" stroke-width="3"/>
 <text x="1302" y="185" text-anchor="middle" fill="#42d8ff" font-size="35" font-weight="700">CVE</text><text x="1302" y="229" text-anchor="middle" fill="#f5fbff" font-size="35" font-weight="700">Intelligence</text>
 <path d="M1450 180Q1473 180 1500 118M1450 210H1500M1450 247Q1473 247 1500 296" stroke="#20c5ff" stroke-width="4" fill="none"/>
