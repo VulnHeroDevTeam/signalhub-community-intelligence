@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 1000" role="img" aria-labelledby="title desc">
+<title id="title">SignalHub Researcher Contribution and Verification Workflow</title>
+<desc id="desc">Five-step illustrative researcher contribution workflow: submission, triage, moderation, intelligence update, community impact.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030d25"/><stop offset=".54" stop-color="#071e45"/><stop offset="1" stop-color="#082e58"/></linearGradient>
+<linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#148aff"/><stop offset="1" stop-color="#23e0ff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#237cf0" stop-opacity=".36"/><stop offset="1" stop-color="#2586d4" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2.1" fill="#269fff" opacity=".58"/></pattern>
+<clipPath id="globe"><circle cx="1530" cy="84" r="330"/></clipPath>
+</defs>
+<rect width="1800" height="1000" fill="url(#bg)"/><circle cx="1540" cy="135" r="470" fill="url(#halo)"/>
+<g clip-path="url(#globe)"><rect x="1160" y="-240" width="740" height="650" fill="url(#dots)" transform="rotate(11 1500 85)"/><path d="M1190 90Q1440 -160 1830 80M1260 250Q1450 0 1860 270" stroke="#209bff" stroke-width="3" fill="none"/></g>
+<circle cx="1530" cy="84" r="330" fill="none" stroke="#1db4ff" stroke-width="3"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<g fill="url(#line)"><rect x="61" y="54" width="12" height="40" rx="6"/><rect x="82" y="37" width="12" height="57" rx="6"/><rect x="103" y="21" width="12" height="73" rx="6"/></g>
+<text x="139" y="88" font-size="62" font-weight="760" fill="white">Signal<tspan fill="#15d2ff">Hub</tspan></text>
+<text x="60" y="190" font-weight="700" font-size="58" fill="#fff">Researcher Contribution &amp; <tspan fill="#309cff">Verification Workflow</tspan></text>
+<text x="61" y="236" font-size="29" fill="#c0d8f3">From community research to trusted, actionable vulnerability intelligence.</text>
+<rect x="60" y="261" width="380" height="4" fill="url(#line)"/>
+</g>
+<g font-family="Arial,Helvetica,sans-serif">
+<rect x="50" y="320" width="320" height="380" rx="24" fill="#071a38" stroke="#20a6ff" stroke-width="3"/>
+<rect x="405" y="320" width="320" height="380" rx="24" fill="#071a38" stroke="#20a6ff" stroke-width="3"/>
+<rect x="760" y="320" width="320" height="380" rx="24" fill="#071a38" stroke="#20a6ff" stroke-width="3"/>
+<rect x="1115" y="320" width="320" height="380" rx="24" fill="#071a38" stroke="#20a6ff" stroke-width="3"/>
+<rect x="1470" y="320" width="280" height="380" rx="24" fill="#071a38" stroke="#20a6ff" stroke-width="3"/>
+<g fill="#17d5ff" font-size="42" font-weight="700">
+<text x="81" y="392">01</text><text x="436" y="392">02</text><text x="791" y="392">03</text><text x="1146" y="392">04</text><text x="1501" y="392">05</text>
+</g>
+<g fill="#f4faff" font-size="29" font-weight="700">
+<text x="79" y="456">Researcher</text><text x="79" y="492">Contribution</text>
+<text x="434" y="456">Triage &amp;</text><text x="434" y="492">Review</text>
+<text x="789" y="456">Moderation &amp;</text><text x="789" y="492">Verification</text>
+<text x="1144" y="456">Intelligence</text><text x="1144" y="492">Update</text>
+<text x="1499" y="456">Community</text><text x="1499" y="492">Impact</text>
+</g>
+<g stroke="#2f90d6" stroke-width="2"><path d="M80 514H338M435 514H693M790 514H1048M1145 514H1403M1500 514H1720"/></g>
+<g fill="#c9d9ee" font-size="22">
+<text x="79" y="560">• Evidence and sources</text><text x="79" y="601">• Affected versions</text><text x="79" y="642">• Fixes and research</text>
+<text x="434" y="560">• Content and sources</text><text x="434" y="601">• Source independence</text><text x="434" y="642">• Safe validation scope</text>
+<text x="789" y="560">• Accept / reject / revise</text><text x="789" y="601">• Evidence classification</text><text x="789" y="642">• Attribution and history</text>
+<text x="1144" y="560">• Updated CVE context</text><text x="1144" y="601">• Exploitability signals</text><text x="1144" y="642">• Version and fix changes</text>
+<text x="1499" y="560">• Public research</text><text x="1499" y="601">• Researcher credit</text><text x="1499" y="642">• Collective insight</text>
+</g>
+<g fill="none" stroke="#24d4ff" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+<path d="M377 510h18m-9 -10l10 10-10 10"/><path d="M732 510h18m-9 -10l10 10-10 10"/><path d="M1087 510h18m-9 -10l10 10-10 10"/><path d="M1442 510h18m-9 -10l10 10-10 10"/>
+</g>
+<text x="62" y="773" font-size="37" font-weight="700" fill="#f7faff">Evidence Types <tspan fill="#9ac2e5" font-weight="400">(examples)</tspan></text>
+<rect x="50" y="805" width="1700" height="95" rx="24" fill="#082249" stroke="#116dbe" stroke-width="2"/>
+<g font-size="24" font-weight="620" fill="#e0f3ff" text-anchor="middle"><text x="220" y="864">PoC / Exploit</text><text x="550" y="864">Lab Validation</text><text x="900" y="864">In-the-Wild</text><text x="1235" y="864">Fix / Patch</text><text x="1570" y="864">Affected Versions</text></g>
+<g stroke="#106bb6" stroke-width="2"><path d="M395 833V876M735 833V876M1075 833V876M1402 833V876"/></g>
+<text x="63" y="964" font-size="24" fill="#f5faff" font-weight="700">VulnHero</text>
+<text x="223" y="964" font-size="22" font-style="italic" fill="#bfdaf2">| Powered by VulnHero's Vuln-Intel</text>
+<text x="1741" y="965" text-anchor="end" font-size="18" font-style="italic" fill="#9abfda">Illustrative workflow and development direction</text>
+</g></svg>
