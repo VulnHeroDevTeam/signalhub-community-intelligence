@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 600" role="img" aria-labelledby="title desc">
+<title id="title">SignalHub Community-Driven Vulnerability Intelligence</title>
+<desc id="desc">SignalHub community intelligence banner in dark blue and cyan, powered by VulnHero's Vuln-Intel.</desc>
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030b20"/><stop offset=".48" stop-color="#061b39"/><stop offset="1" stop-color="#073462"/></linearGradient>
+<linearGradient id="cy" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#178bff"/><stop offset=".58" stop-color="#18e2ff"/><stop offset="1" stop-color="#1f9aff"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#188efa" stop-opacity=".32"/><stop offset="1" stop-color="#077ad3" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="17" height="17" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2.2" fill="#30b9ff" opacity=".65"/></pattern>
+<filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+<clipPath id="globe"><ellipse cx="1498" cy="633" rx="473" ry="335"/></clipPath>
+</defs>
+<rect width="1800" height="600" fill="url(#bg)"/><ellipse cx="1470" cy="480" rx="560" ry="450" fill="url(#halo)"/>
+<g clip-path="url(#globe)"><rect x="1025" y="295" width="980" height="350" fill="url(#dots)" transform="rotate(-9 1490 455)"/><path d="M1025 465Q1400 210 1970 520M1100 570Q1450 290 1975 420" fill="none" stroke="#119cff" stroke-opacity=".7" stroke-width="3"/></g>
+<ellipse cx="1498" cy="633" rx="473" ry="335" fill="none" stroke="#32beff" stroke-width="4" opacity=".75"/>
+<g stroke="#15abf7" stroke-width="2.5" fill="none" opacity=".85">
+<path d="M1180 420Q1300 305 1454 435T1785 380"/><path d="M1170 520Q1485 350 1745 485"/><path d="M1340 480Q1460 230 1660 430"/>
+</g><g fill="#52dcff"><circle cx="1180" cy="420" r="7"/><circle cx="1454" cy="435" r="8"/><circle cx="1660" cy="430" r="8"/><circle cx="1745" cy="485" r="8"/></g>
+<g fill="url(#cy)"><rect x="100" y="156" width="23" height="64" rx="11"/><rect x="139" y="117" width="23" height="103" rx="11"/><rect x="178" y="84" width="23" height="136" rx="11"/></g>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="245" y="206" font-size="112" font-weight="750" letter-spacing="-4" fill="#fff">Signal<tspan fill="#13ccff">Hub</tspan></text>
+<text x="100" y="295" font-size="47" font-weight="700" fill="#ecf5ff">Community-Driven Vulnerability Intelligence</text>
+<rect x="100" y="326" width="335" height="4" rx="2" fill="url(#cy)"/>
+<text x="100" y="398" font-size="29" fill="#c8dcf5">Verified Evidence <tspan fill="#12dfff"> • </tspan> Researcher Collaboration <tspan fill="#12dfff"> • </tspan> Actionable CVE Research</text>
+<g transform="translate(105,492)" stroke="#e2f2ff" stroke-width="3" fill="none"><circle cx="26" cy="25" r="24"/><path d="M15 -3V45M29 8V48M40 16V43"/></g>
+<text x="175" y="541" font-size="37" font-weight="700" fill="#f2f8ff">VulnHero</text><text x="402" y="541" font-size="27" fill="#a9c7e4">|</text>
+<text x="431" y="539" font-size="28" font-style="italic" fill="#c4d9ef">Powered by VulnHero's Vuln-Intel</text>
+<rect x="1040" y="105" width="320" height="210" rx="25" fill="#062848" stroke="#208eff" stroke-width="3"/>
+<text x="1200" y="185" text-anchor="middle" fill="#42d8ff" font-size="35" font-weight="700">CVE</text><text x="1200" y="229" text-anchor="middle" fill="#f5fbff" font-size="35" font-weight="700">Intelligence</text>
+<path d="M1360 180Q1410 180 1452 118M1360 210H1452M1360 247Q1410 247 1452 296" stroke="#20c5ff" stroke-width="4" fill="none"/>
+<g fill="#062746" stroke="#20aafc" stroke-width="2.5"><rect x="1452" y="65" width="286" height="90" rx="22"/><rect x="1452" y="168" width="286" height="90" rx="22"/><rect x="1452" y="271" width="286" height="90" rx="22"/></g>
+<g fill="#f7fcff" font-size="30" font-weight="650"><text x="1502" y="120">Evidence</text><text x="1502" y="223">Verification</text><text x="1502" y="326">Community</text></g>
+</g></svg>
