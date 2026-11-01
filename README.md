@@ -2,7 +2,7 @@
 
 **Open research collaboration. Traceable evidence. Better vulnerability decisions.**
 
-[Explore SignalHub](https://signalhub.vulnhero.com) · [Vuln-Intel](https://vulnintel.vulnhero.com) · [Community](https://signalhub.vulnhero.com/community) · [Developer Program](https://signalhub.vulnhero.com/developers) · [VulnHero](https://vulnhero.com)
+[Explore SignalHub](https://signalhub.vulnhero.com) · [Community](https://signalhub.vulnhero.com/community) · [Developer Program](https://signalhub.vulnhero.com/developers) · [Vuln-Intel](https://vulnintel.vulnhero.com) · [VulnHero](https://vulnhero.com)
 
 SignalHub is a community-powered vulnerability and exploitability intelligence initiative operated by **VulnHero**. It helps researchers explore CVE intelligence, share technical evidence, correct affected-version information, and contribute to more reliable vulnerability research.
 
